@@ -1,8 +1,41 @@
-# React + Vite
+# Chord-Cloud
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The ”Chord-Cloud” project is a web application that replicates the core functionality of the popular music
+streaming service Spotify.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Description](#description)
+- [Tech/Framework Used](#techframework-used)
+- [Installation](#installation)
+  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+A clone web application using the create-react-app. 
+![App Screen Shot](https://github.com/12vaishali/Chord-Cloud/blob/main/Screenshot%20(47).png)
+
+## Tech/Framework Used
+* React (create-react-app CLI)
+* react-router-dom
+* Tailwind
+* vite
+
+## Installation
+This project requires [node](http://nodejs.org) and [npm](https://npmjs.com) installed globally. 
+
+Clone the repository to a directory of your choosing
+
+```sh
+$ git clone https://github.com/12vaishali/Chord-Cloud.git
+```
+Navigate into spotify-clone-client and install the necessary packages
+
+```sh
+$ npm install 
+```
+To start up the app locally
+
+```sh
+$ npm run dev
+```
+
+Additionally, this project also requires you to clone and run the server code from this [repo](https://github.com/12vaishali/Chord-Cloud.git) to work properly.
